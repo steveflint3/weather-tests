@@ -2,7 +2,7 @@ describe('Weather test', () => {
   it('tests the weather app', () => {
     cy.log('Show me before visit =>>>>>>>');
     console.log('show me in console BEFORE visit ===>>>');
-    // cy.visit('/');
+    cy.visit('/');
     cy.log('Show me AFTER visit =>>>>>>>');
     console.log('show me in console AFTER visit ===>>>');
     // cy.get('form').within(() => {

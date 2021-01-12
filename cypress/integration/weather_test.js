@@ -1,5 +1,5 @@
 describe('Weather test', () => {
-  it('Tests the weather app', () => {
+  it('YO HELLO THERE', () => {
     cy.visit('/');
     cy.get('form').within(() => {
       cy.get('input[name^="city"]').type('Baltimore');

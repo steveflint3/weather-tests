@@ -1,4 +1,4 @@
-describe('Weather test', () => {
+describe('Weather test in WEATHER TEST REPO', () => {
   it('tests the weather app', () => {
     cy.log('Show me before visit =>>>>>>>');
     console.log('show me in console BEFORE visit ===>>>');
